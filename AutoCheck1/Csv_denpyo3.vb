@@ -1907,6 +1907,10 @@ Public Class Csv_denpyo3
                             weight = "200"
                             sp_check = False
                         End If
+                        If haisouKind = "宅配便" And (code(0).ToLower = "ny332") Then
+                            weight = "82"
+                            sp_check = False
+                        End If
                     End If
 
                     If (haisouKind = "メール便" And (code(0).ToLower = "ny263-51") And ny263_51_isnagoya And special_taku) Or (haisouKind_moto = "宅配便" And haisouKind = "宅配便" And (code(0).ToLower = "ny263-51") And ny263_51_isnagoya) Then
@@ -13058,4 +13062,96 @@ Public Class Csv_denpyo3
     End Sub
 
 
+
+
+
+    Dim IsYoupaByCodeArr As New ArrayList()
+
+    Public Function GetIsYoupaByCode(mcode As String)
+        If mcode = "" Then
+            Return False
+        End If
+        For index = 1 To IsYoupaByCodeArr.Count - 1
+            If IsYoupaByCodeArr(index) = mcode Then
+                Return True
+                Exit For
+            End If
+        Next
+        Return False
+    End Function
+
+
+
+    Dim IsYoupaByPlaceArr As New ArrayList()
+    Public Function GetIsYoupaByPlace(mPlace As String)
+        If mPlace = "" Then
+            Return False
+        End If
+        For index = 1 To IsYoupaByPlaceArr.Count - 1
+
+            If IsYoupaByPlaceArr(index) = mPlace Then
+                Return True
+                Exit For
+            End If
+        Next
+        Return False
+    End Function
+
+    Dim IsYoupaByStandardArr As New ArrayList()
+    Public Function GetIsYoupaByStandard(mStandard As String)
+        If mStandard = "" Then
+            Return False
+        End If
+        For index = 1 To IsYoupaByStandardArr.Count - 1
+            If IsYoupaByStandardArr(index) = mStandard Then
+                Return True
+                Exit For
+            End If
+        Next
+        Return False
+    End Function
+
+
+    Public Function IsYoupaQuantityReached(mQuantity As Integer)
+        Dim fp As StreamReader
+        Dim s As String
+        Try
+            fp = File.OpenText(".txt")
+            s = fp.ReadToEnd
+            fp.Close()
+        Catch ex As Exception
+
+        End Try
+
+        If s <> "" Then
+
+        Else
+
+
+        End If
+
+        Return False
+
+
+    End Function
+
+    Private Sub TabPage38_Click(sender As Object, e As EventArgs) Handles TabPage38.Click
+
+    End Sub
+
+    Private Sub DataGridView_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGV9.CellDoubleClick, DGV8.CellDoubleClick, DGV7.CellDoubleClick, DGV13.CellDoubleClick
+
+    End Sub
+
+    Private Sub DataGridView_RowPostPaint(sender As Object, e As DataGridViewRowPostPaintEventArgs) Handles DGV9.RowPostPaint, DGV8.RowPostPaint, DGV7.RowPostPaint, DGV6.RowPostPaint, DGV4.RowPostPaint, DGV3.RowPostPaint, DGV18.RowPostPaint, DGV17.RowPostPaint, DGV16.RowPostPaint, DGV15.RowPostPaint, DGV14.RowPostPaint, DGV13.RowPostPaint, DGV12.RowPostPaint, DGV1.RowPostPaint
+
+    End Sub
+
+    Private Sub DataGridView_SelectionChanged(sender As Object, e As EventArgs) Handles DGV9.SelectionChanged, DGV8.SelectionChanged, DGV7.SelectionChanged, DGV13.SelectionChanged, DGV1.SelectionChanged
+
+    End Sub
+
+    Private Sub DataGridView_DragDrop(sender As Object, e As DragEventArgs) Handles DGV9.DragDrop, DGV8.DragDrop, DGV7.DragDrop, DGV3.DragDrop, DGV13.DragDrop, DGV12.DragDrop, DGV1.DragDrop
+
+    End Sub
 End Class

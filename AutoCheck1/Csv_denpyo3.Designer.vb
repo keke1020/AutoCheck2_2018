@@ -199,15 +199,6 @@ Partial Class Csv_denpyo3
         Me.ToolStripTextBox1 = New System.Windows.Forms.ToolStripTextBox()
         Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.TabControl2 = New System.Windows.Forms.TabControl()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.DGV1 = New System.Windows.Forms.DataGridView()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.処理後データに移動ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
@@ -230,14 +221,6 @@ Partial Class Csv_denpyo3
         Me.ToolStripSeparator19 = New System.Windows.Forms.ToolStripSeparator()
         Me.行を削除ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.列を削除ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.DGV7 = New System.Windows.Forms.DataGridView()
-        Me.TabPage6 = New System.Windows.Forms.TabPage()
-        Me.DGV8 = New System.Windows.Forms.DataGridView()
-        Me.TabPage7 = New System.Windows.Forms.TabPage()
-        Me.DGV9 = New System.Windows.Forms.DataGridView()
-        Me.TabPage16 = New System.Windows.Forms.TabPage()
-        Me.DGV13 = New System.Windows.Forms.DataGridView()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage11 = New System.Windows.Forms.TabPage()
         Me.TabControl4 = New System.Windows.Forms.TabControl()
@@ -542,6 +525,24 @@ Partial Class Csv_denpyo3
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.TabPage38 = New System.Windows.Forms.TabPage()
+        Me.TabPage16 = New System.Windows.Forms.TabPage()
+        Me.DGV13 = New System.Windows.Forms.DataGridView()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.DGV9 = New System.Windows.Forms.DataGridView()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.DGV8 = New System.Windows.Forms.DataGridView()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.DGV7 = New System.Windows.Forms.DataGridView()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.DGV1 = New System.Windows.Forms.DataGridView()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.ToolStrip1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
@@ -588,20 +589,7 @@ Partial Class Csv_denpyo3
         Me.SplitContainer7.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
-        Me.TabControl2.SuspendLayout()
-        Me.TabPage4.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        CType(Me.DGV1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
-        Me.TabPage5.SuspendLayout()
-        CType(Me.DGV7, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage6.SuspendLayout()
-        CType(Me.DGV8, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage7.SuspendLayout()
-        CType(Me.DGV9, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage16.SuspendLayout()
-        CType(Me.DGV13, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl3.SuspendLayout()
         Me.TabPage11.SuspendLayout()
         Me.TabControl4.SuspendLayout()
@@ -666,6 +654,19 @@ Partial Class Csv_denpyo3
         Me.TabPage24.SuspendLayout()
         Me.TabPage25.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
+        Me.TabPage16.SuspendLayout()
+        CType(Me.DGV13, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage7.SuspendLayout()
+        CType(Me.DGV9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage6.SuspendLayout()
+        CType(Me.DGV8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage5.SuspendLayout()
+        CType(Me.DGV7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage4.SuspendLayout()
+        CType(Me.DGV1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel8.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.TabControl2.SuspendLayout()
         Me.SuspendLayout()
         '
         'ToolStrip1
@@ -2764,114 +2765,6 @@ Partial Class Csv_denpyo3
         Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton1.Text = "ToolStripButton1"
         '
-        'TabControl2
-        '
-        Me.TabControl2.Controls.Add(Me.TabPage4)
-        Me.TabControl2.Controls.Add(Me.TabPage5)
-        Me.TabControl2.Controls.Add(Me.TabPage6)
-        Me.TabControl2.Controls.Add(Me.TabPage7)
-        Me.TabControl2.Controls.Add(Me.TabPage16)
-        Me.TabControl2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TabControl2.Location = New System.Drawing.Point(0, 0)
-        Me.TabControl2.Name = "TabControl2"
-        Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(646, 397)
-        Me.TabControl2.TabIndex = 12
-        '
-        'TabPage4
-        '
-        Me.TabPage4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TabPage4.Controls.Add(Me.Label9)
-        Me.TabPage4.Controls.Add(Me.Panel7)
-        Me.TabPage4.Controls.Add(Me.Panel8)
-        Me.TabPage4.Controls.Add(Me.DGV1)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(447, 371)
-        Me.TabPage4.TabIndex = 0
-        Me.TabPage4.Text = "元データ"
-        Me.TabPage4.UseVisualStyleBackColor = True
-        '
-        'Label9
-        '
-        Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Label9.Font = New System.Drawing.Font("MS UI Gothic", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(163, 155)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(135, 38)
-        Me.Label9.TabIndex = 1
-        Me.Label9.Text = "計算中"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Label9.Visible = False
-        '
-        'Panel7
-        '
-        Me.Panel7.BackColor = System.Drawing.Color.Yellow
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel7.Controls.Add(Me.Button11)
-        Me.Panel7.Controls.Add(Me.Label57)
-        Me.Panel7.Location = New System.Drawing.Point(118, 102)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(227, 67)
-        Me.Panel7.TabIndex = 84
-        Me.Panel7.Visible = False
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Location = New System.Drawing.Point(12, 35)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(202, 23)
-        Me.Button11.TabIndex = 101
-        Me.Button11.Text = "修正してから現在のデータで再読込"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(10, 7)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(207, 24)
-        Me.Label57.TabIndex = 1
-        Me.Label57.Text = "追加データが必要です" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "購入・発送の電話番号は入っていますか？"
-        '
-        'Panel8
-        '
-        Me.Panel8.BackColor = System.Drawing.Color.Yellow
-        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel8.Controls.Add(Me.Label13)
-        Me.Panel8.Location = New System.Drawing.Point(10, 19)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(212, 65)
-        Me.Panel8.TabIndex = 9
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(9, 7)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(195, 48)
-        Me.Label13.TabIndex = 1
-        Me.Label13.Text = "ネクストエンジン読み込み可csv" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "・配送情報ダウンロード（作業用欄のみ）" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "・元データ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "このパネルが出てる時は処理不可！"
-        '
-        'DGV1
-        '
-        Me.DGV1.AllowDrop = True
-        Me.DGV1.AllowUserToAddRows = False
-        Me.DGV1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.DGV1.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.DGV1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DGV1.Location = New System.Drawing.Point(3, 3)
-        Me.DGV1.Name = "DGV1"
-        Me.DGV1.RowTemplate.Height = 21
-        Me.DGV1.Size = New System.Drawing.Size(439, 363)
-        Me.DGV1.TabIndex = 8
-        '
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
@@ -3007,114 +2900,6 @@ Partial Class Csv_denpyo3
         Me.列を削除ToolStripMenuItem1.Name = "列を削除ToolStripMenuItem1"
         Me.列を削除ToolStripMenuItem1.Size = New System.Drawing.Size(211, 22)
         Me.列を削除ToolStripMenuItem1.Text = "列を削除"
-        '
-        'TabPage5
-        '
-        Me.TabPage5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TabPage5.Controls.Add(Me.DGV7)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(447, 371)
-        Me.TabPage5.TabIndex = 1
-        Me.TabPage5.Text = "佐川e飛伝2"
-        Me.TabPage5.UseVisualStyleBackColor = True
-        '
-        'DGV7
-        '
-        Me.DGV7.AllowDrop = True
-        Me.DGV7.AllowUserToAddRows = False
-        Me.DGV7.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.DGV7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.DGV7.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.DGV7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DGV7.Location = New System.Drawing.Point(3, 3)
-        Me.DGV7.Name = "DGV7"
-        Me.DGV7.ReadOnly = True
-        Me.DGV7.RowTemplate.Height = 21
-        Me.DGV7.Size = New System.Drawing.Size(439, 363)
-        Me.DGV7.TabIndex = 9
-        '
-        'TabPage6
-        '
-        Me.TabPage6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TabPage6.Controls.Add(Me.DGV8)
-        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(638, 371)
-        Me.TabPage6.TabIndex = 2
-        Me.TabPage6.Text = "佐川BIZlogi"
-        Me.TabPage6.UseVisualStyleBackColor = True
-        '
-        'DGV8
-        '
-        Me.DGV8.AllowDrop = True
-        Me.DGV8.AllowUserToAddRows = False
-        Me.DGV8.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.DGV8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.DGV8.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.DGV8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DGV8.Location = New System.Drawing.Point(3, 3)
-        Me.DGV8.Name = "DGV8"
-        Me.DGV8.ReadOnly = True
-        Me.DGV8.RowTemplate.Height = 21
-        Me.DGV8.Size = New System.Drawing.Size(630, 363)
-        Me.DGV8.TabIndex = 9
-        '
-        'TabPage7
-        '
-        Me.TabPage7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TabPage7.Controls.Add(Me.DGV9)
-        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(447, 371)
-        Me.TabPage7.TabIndex = 3
-        Me.TabPage7.Text = "メール便"
-        Me.TabPage7.UseVisualStyleBackColor = True
-        '
-        'DGV9
-        '
-        Me.DGV9.AllowDrop = True
-        Me.DGV9.AllowUserToAddRows = False
-        Me.DGV9.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.DGV9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.DGV9.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.DGV9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DGV9.Location = New System.Drawing.Point(3, 3)
-        Me.DGV9.Name = "DGV9"
-        Me.DGV9.ReadOnly = True
-        Me.DGV9.RowTemplate.Height = 21
-        Me.DGV9.Size = New System.Drawing.Size(439, 363)
-        Me.DGV9.TabIndex = 9
-        '
-        'TabPage16
-        '
-        Me.TabPage16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TabPage16.Controls.Add(Me.DGV13)
-        Me.TabPage16.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage16.Name = "TabPage16"
-        Me.TabPage16.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage16.Size = New System.Drawing.Size(447, 371)
-        Me.TabPage16.TabIndex = 4
-        Me.TabPage16.Text = "定形外"
-        Me.TabPage16.UseVisualStyleBackColor = True
-        '
-        'DGV13
-        '
-        Me.DGV13.AllowDrop = True
-        Me.DGV13.AllowUserToAddRows = False
-        Me.DGV13.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.DGV13.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.DGV13.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.DGV13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DGV13.Location = New System.Drawing.Point(3, 3)
-        Me.DGV13.Name = "DGV13"
-        Me.DGV13.ReadOnly = True
-        Me.DGV13.RowTemplate.Height = 21
-        Me.DGV13.Size = New System.Drawing.Size(439, 363)
-        Me.DGV13.TabIndex = 10
         '
         'TabControl3
         '
@@ -6039,7 +5824,7 @@ Partial Class Csv_denpyo3
         Me.TabPage9.Location = New System.Drawing.Point(4, 22)
         Me.TabPage9.Name = "TabPage9"
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(447, 146)
+        Me.TabPage9.Size = New System.Drawing.Size(638, 146)
         Me.TabPage9.TabIndex = 1
         Me.TabPage9.Text = "プレビュー"
         Me.TabPage9.UseVisualStyleBackColor = True
@@ -6057,7 +5842,7 @@ Partial Class Csv_denpyo3
         Me.DGV12.Name = "DGV12"
         Me.DGV12.ReadOnly = True
         Me.DGV12.RowTemplate.Height = 21
-        Me.DGV12.Size = New System.Drawing.Size(441, 140)
+        Me.DGV12.Size = New System.Drawing.Size(632, 140)
         Me.DGV12.TabIndex = 9
         '
         'TabPage31
@@ -6066,7 +5851,7 @@ Partial Class Csv_denpyo3
         Me.TabPage31.Controls.Add(Me.Panel10)
         Me.TabPage31.Location = New System.Drawing.Point(4, 22)
         Me.TabPage31.Name = "TabPage31"
-        Me.TabPage31.Size = New System.Drawing.Size(447, 146)
+        Me.TabPage31.Size = New System.Drawing.Size(638, 146)
         Me.TabPage31.TabIndex = 2
         Me.TabPage31.Text = "ピッキングリスト"
         Me.TabPage31.UseVisualStyleBackColor = True
@@ -6082,7 +5867,7 @@ Partial Class Csv_denpyo3
         Me.DGV16.Location = New System.Drawing.Point(105, 0)
         Me.DGV16.Name = "DGV16"
         Me.DGV16.RowTemplate.Height = 21
-        Me.DGV16.Size = New System.Drawing.Size(342, 146)
+        Me.DGV16.Size = New System.Drawing.Size(533, 146)
         Me.DGV16.TabIndex = 11
         '
         'DataGridViewTextBoxColumn16
@@ -6488,6 +6273,237 @@ Partial Class Csv_denpyo3
         Me.Timer2.Enabled = True
         Me.Timer2.Interval = 1000
         '
+        'TabPage38
+        '
+        Me.TabPage38.BackColor = System.Drawing.Color.Transparent
+        Me.TabPage38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.TabPage38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TabPage38.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TabPage38.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage38.Name = "TabPage38"
+        Me.TabPage38.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage38.Size = New System.Drawing.Size(638, 371)
+        Me.TabPage38.TabIndex = 5
+        Me.TabPage38.Text = "特定"
+        '
+        'TabPage16
+        '
+        Me.TabPage16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TabPage16.Controls.Add(Me.DGV13)
+        Me.TabPage16.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage16.Name = "TabPage16"
+        Me.TabPage16.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage16.Size = New System.Drawing.Size(638, 371)
+        Me.TabPage16.TabIndex = 4
+        Me.TabPage16.Text = "定形外"
+        Me.TabPage16.UseVisualStyleBackColor = True
+        '
+        'DGV13
+        '
+        Me.DGV13.AllowDrop = True
+        Me.DGV13.AllowUserToAddRows = False
+        Me.DGV13.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.DGV13.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.DGV13.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.DGV13.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGV13.Location = New System.Drawing.Point(3, 3)
+        Me.DGV13.Name = "DGV13"
+        Me.DGV13.ReadOnly = True
+        Me.DGV13.RowTemplate.Height = 21
+        Me.DGV13.Size = New System.Drawing.Size(630, 363)
+        Me.DGV13.TabIndex = 10
+        '
+        'TabPage7
+        '
+        Me.TabPage7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TabPage7.Controls.Add(Me.DGV9)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(638, 371)
+        Me.TabPage7.TabIndex = 3
+        Me.TabPage7.Text = "メール便"
+        Me.TabPage7.UseVisualStyleBackColor = True
+        '
+        'DGV9
+        '
+        Me.DGV9.AllowDrop = True
+        Me.DGV9.AllowUserToAddRows = False
+        Me.DGV9.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.DGV9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.DGV9.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.DGV9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGV9.Location = New System.Drawing.Point(3, 3)
+        Me.DGV9.Name = "DGV9"
+        Me.DGV9.ReadOnly = True
+        Me.DGV9.RowTemplate.Height = 21
+        Me.DGV9.Size = New System.Drawing.Size(630, 363)
+        Me.DGV9.TabIndex = 9
+        '
+        'TabPage6
+        '
+        Me.TabPage6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TabPage6.Controls.Add(Me.DGV8)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(638, 371)
+        Me.TabPage6.TabIndex = 2
+        Me.TabPage6.Text = "佐川BIZlogi"
+        Me.TabPage6.UseVisualStyleBackColor = True
+        '
+        'DGV8
+        '
+        Me.DGV8.AllowDrop = True
+        Me.DGV8.AllowUserToAddRows = False
+        Me.DGV8.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.DGV8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.DGV8.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.DGV8.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGV8.Location = New System.Drawing.Point(3, 3)
+        Me.DGV8.Name = "DGV8"
+        Me.DGV8.ReadOnly = True
+        Me.DGV8.RowTemplate.Height = 21
+        Me.DGV8.Size = New System.Drawing.Size(630, 363)
+        Me.DGV8.TabIndex = 9
+        '
+        'TabPage5
+        '
+        Me.TabPage5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TabPage5.Controls.Add(Me.DGV7)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(638, 371)
+        Me.TabPage5.TabIndex = 1
+        Me.TabPage5.Text = "佐川e飛伝2"
+        Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'DGV7
+        '
+        Me.DGV7.AllowDrop = True
+        Me.DGV7.AllowUserToAddRows = False
+        Me.DGV7.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.DGV7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.DGV7.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.DGV7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGV7.Location = New System.Drawing.Point(3, 3)
+        Me.DGV7.Name = "DGV7"
+        Me.DGV7.ReadOnly = True
+        Me.DGV7.RowTemplate.Height = 21
+        Me.DGV7.Size = New System.Drawing.Size(630, 363)
+        Me.DGV7.TabIndex = 9
+        '
+        'TabPage4
+        '
+        Me.TabPage4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TabPage4.Controls.Add(Me.Label9)
+        Me.TabPage4.Controls.Add(Me.Panel7)
+        Me.TabPage4.Controls.Add(Me.Panel8)
+        Me.TabPage4.Controls.Add(Me.DGV1)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(638, 371)
+        Me.TabPage4.TabIndex = 0
+        Me.TabPage4.Text = "元データ"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'DGV1
+        '
+        Me.DGV1.AllowDrop = True
+        Me.DGV1.AllowUserToAddRows = False
+        Me.DGV1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.DGV1.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.DGV1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGV1.Location = New System.Drawing.Point(3, 3)
+        Me.DGV1.Name = "DGV1"
+        Me.DGV1.RowTemplate.Height = 21
+        Me.DGV1.Size = New System.Drawing.Size(630, 363)
+        Me.DGV1.TabIndex = 8
+        '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.Color.Yellow
+        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel8.Controls.Add(Me.Label13)
+        Me.Panel8.Location = New System.Drawing.Point(10, 19)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(212, 65)
+        Me.Panel8.TabIndex = 9
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(9, 7)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(195, 48)
+        Me.Label13.TabIndex = 1
+        Me.Label13.Text = "ネクストエンジン読み込み可csv" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "・配送情報ダウンロード（作業用欄のみ）" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "・元データ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "このパネルが出てる時は処理不可！"
+        '
+        'Panel7
+        '
+        Me.Panel7.BackColor = System.Drawing.Color.Yellow
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.Controls.Add(Me.Button11)
+        Me.Panel7.Controls.Add(Me.Label57)
+        Me.Panel7.Location = New System.Drawing.Point(118, 102)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(227, 67)
+        Me.Panel7.TabIndex = 84
+        Me.Panel7.Visible = False
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Location = New System.Drawing.Point(10, 7)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(207, 24)
+        Me.Label57.TabIndex = 1
+        Me.Label57.Text = "追加データが必要です" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "購入・発送の電話番号は入っていますか？"
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Location = New System.Drawing.Point(12, 35)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(0)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(202, 23)
+        Me.Button11.TabIndex = 101
+        Me.Button11.Text = "修正してから現在のデータで再読込"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
+        'Label9
+        '
+        Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label9.Font = New System.Drawing.Font("MS UI Gothic", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(163, 155)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(135, 38)
+        Me.Label9.TabIndex = 1
+        Me.Label9.Text = "計算中"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label9.Visible = False
+        '
+        'TabControl2
+        '
+        Me.TabControl2.AccessibleName = ""
+        Me.TabControl2.Controls.Add(Me.TabPage4)
+        Me.TabControl2.Controls.Add(Me.TabPage5)
+        Me.TabControl2.Controls.Add(Me.TabPage6)
+        Me.TabControl2.Controls.Add(Me.TabPage7)
+        Me.TabControl2.Controls.Add(Me.TabPage16)
+        Me.TabControl2.Controls.Add(Me.TabPage38)
+        Me.TabControl2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControl2.Location = New System.Drawing.Point(0, 0)
+        Me.TabControl2.Name = "TabControl2"
+        Me.TabControl2.SelectedIndex = 0
+        Me.TabControl2.Size = New System.Drawing.Size(646, 397)
+        Me.TabControl2.TabIndex = 12
+        '
         'Csv_denpyo3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -6557,22 +6573,7 @@ Partial Class Csv_denpyo3
         Me.Panel5.PerformLayout()
         Me.ToolStrip2.ResumeLayout(False)
         Me.ToolStrip2.PerformLayout()
-        Me.TabControl2.ResumeLayout(False)
-        Me.TabPage4.ResumeLayout(False)
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel7.PerformLayout()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
-        CType(Me.DGV1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ContextMenuStrip1.ResumeLayout(False)
-        Me.TabPage5.ResumeLayout(False)
-        CType(Me.DGV7, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage6.ResumeLayout(False)
-        CType(Me.DGV8, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage7.ResumeLayout(False)
-        CType(Me.DGV9, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage16.ResumeLayout(False)
-        CType(Me.DGV13, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl3.ResumeLayout(False)
         Me.TabPage11.ResumeLayout(False)
         Me.TabControl4.ResumeLayout(False)
@@ -6653,6 +6654,21 @@ Partial Class Csv_denpyo3
         Me.TabPage25.PerformLayout()
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
+        Me.TabPage16.ResumeLayout(False)
+        CType(Me.DGV13, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage7.ResumeLayout(False)
+        CType(Me.DGV9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage6.ResumeLayout(False)
+        CType(Me.DGV8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage5.ResumeLayout(False)
+        CType(Me.DGV7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage4.ResumeLayout(False)
+        CType(Me.DGV1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel7.PerformLayout()
+        Me.TabControl2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -6678,7 +6694,6 @@ Partial Class Csv_denpyo3
     Friend WithEvents 受注明細csvのリセットToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
     Friend WithEvents SplitContainer3 As SplitContainer
-    Friend WithEvents DGV1 As DataGridView
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label2 As Label
     Friend WithEvents DGV3 As DataGridView
@@ -6772,17 +6787,7 @@ Partial Class Csv_denpyo3
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents DGV6 As DataGridView
-    Friend WithEvents Panel8 As Panel
-    Friend WithEvents Label13 As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents TabControl2 As TabControl
-    Friend WithEvents TabPage4 As TabPage
-    Friend WithEvents TabPage5 As TabPage
-    Friend WithEvents DGV7 As DataGridView
-    Friend WithEvents TabPage6 As TabPage
-    Friend WithEvents DGV8 As DataGridView
-    Friend WithEvents TabPage7 As TabPage
-    Friend WithEvents DGV9 As DataGridView
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
@@ -6816,7 +6821,6 @@ Partial Class Csv_denpyo3
     Friend WithEvents DGV10 As DataGridView
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
-    Friend WithEvents Label9 As Label
     Friend WithEvents DGV2 As DataGridView
     Friend WithEvents CheckBox16 As CheckBox
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
@@ -6881,8 +6885,6 @@ Partial Class Csv_denpyo3
     Friend WithEvents CheckBox7 As CheckBox
     Friend WithEvents 別紙PDFのみ出力ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents TabPage16 As TabPage
-    Friend WithEvents DGV13 As DataGridView
     Friend WithEvents Label23 As Label
     Friend WithEvents Label24 As Label
     Friend WithEvents Label22 As Label
@@ -6936,8 +6938,6 @@ Partial Class Csv_denpyo3
     Friend WithEvents ToolStripSeparator5 As ToolStripSeparator
     Friend WithEvents 元に戻すToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents やり直しToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents Label57 As Label
     Friend WithEvents TabPage22 As TabPage
     Friend WithEvents DGV14 As DataGridView
     Friend WithEvents Label63 As Label
@@ -7036,7 +7036,6 @@ Partial Class Csv_denpyo3
     Friend WithEvents Button9 As Button
     Friend WithEvents Label83 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button11 As Button
     Friend WithEvents TabPage26 As TabPage
     Friend WithEvents DGV4 As DataGridView
     Friend WithEvents Panel9 As Panel
@@ -7172,4 +7171,22 @@ Partial Class Csv_denpyo3
     Friend WithEvents LinkLabel34 As LinkLabel
     Friend WithEvents LinkLabel36 As LinkLabel
     Friend WithEvents Label108 As Label
+    Friend WithEvents TabControl2 As TabControl
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Panel7 As Panel
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Label57 As Label
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents Label13 As Label
+    Friend WithEvents DGV1 As DataGridView
+    Friend WithEvents TabPage5 As TabPage
+    Friend WithEvents DGV7 As DataGridView
+    Friend WithEvents TabPage6 As TabPage
+    Friend WithEvents DGV8 As DataGridView
+    Friend WithEvents TabPage7 As TabPage
+    Friend WithEvents DGV9 As DataGridView
+    Friend WithEvents TabPage16 As TabPage
+    Friend WithEvents DGV13 As DataGridView
+    Friend WithEvents TabPage38 As TabPage
 End Class
